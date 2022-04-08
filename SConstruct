@@ -46,8 +46,8 @@ strDepackPath = 'targets/depack/date-version_2.1.2/'
 # Build the artifacts.
 #
 
-strGroup = 'com.github.tieske'
-strModule = 'date'
+strGroup = PROJECT_GROUP
+strModule = PROJECT_MODULE
 
 # Split the group by dots.
 aGroup = strGroup.split('.')
