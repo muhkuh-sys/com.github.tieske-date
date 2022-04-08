@@ -36,10 +36,10 @@ import tarfile
 #
 # Depack the source archive.
 #
-tSrcArchive = tarfile.open('date-version_2.1.2.tar.gz', 'r')
+tSrcArchive = tarfile.open('date-version_2.2.tar.gz', 'r')
 tSrcArchive.extractall('targets/depack')
 tSrcArchive.close()
-strDepackPath = 'targets/depack/date-version_2.1.2/'
+strDepackPath = 'targets/depack/date-version_2.2/src/'
 
 #----------------------------------------------------------------------------
 #
